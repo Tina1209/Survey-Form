@@ -1,0 +1,133 @@
+body {
+    font-family: Montserrat, sans-serif;
+      color: #FFFBF5;
+      font-size: 16px;
+    }
+    
+    body :before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      margin: 0;
+       background-image: linear-gradient(
+          115deg,
+          rgba(129, 143, 180, 0.8),
+          rgba(129, 143, 180, 0.8)
+        ), 
+        url(https://plus.unsplash.com/premium_photo-1664202525979-80d1da46b34b?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+      );
+      background-position: center;
+      background-repeat:n0-repeat;
+      background-size:cover;
+    
+    }
+     h1 {
+      margin: 0;
+      padding: 0;
+      margin-top: 1em;
+      text-align: center;
+      font-weight: bold;
+    }
+    
+    p {
+      margin-bottom: 1em;
+      padding: 0;
+      margin-top: 1em;
+      text-align: center;
+      font-style: italic;
+    }
+    
+    label {
+      display: block;
+      align-items: center;
+      font-size: 1.125rem;
+      margin-bottom: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    
+    form {
+      background: #363062;
+      border-radius: 0.25rem;
+      width: 70%;
+      max-width: 720px;
+      min-width: 540px;
+      margin: 0 auto;
+      padding-bottom: 2em;
+      padding-top: 2rem;
+    }
+    div {
+      margin: 0;
+      padding: 0;
+    }
+    input,
+    textarea,
+    select {
+      margin: 4px 0 0 0;
+      width: 100%;
+      min-height: 2.5em;
+    }
+    
+    input, textarea {
+      background-color: #FFFBF5;
+      border: 1px  #363062;
+      color: #363062;
+      border-radius: 3px;
+    }
+    .form-referrer {
+      display: block;
+      width: 100%;
+      padding: 0rem 0.8rem;
+      color: #363062;
+      background-color: #FFFBF5;
+      background-clip: padding-box;
+      border: 2px solid #818FB4;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    
+    .title-dropdown {
+      margin: 1.5em 1em 0em 1em;
+      padding: 0;
+      text-align: left;
+      font-size: 1.125rem;
+      font-style: normal;
+    }
+    .inline {
+      width: unset;
+      margin: 0 0.5em 0 0;
+      vertical-align: middle;
+      display: inline-block;
+      margin-right: 0.625rem;
+      min-height: 1.25rem;
+      min-width: 1.25rem;
+    }
+    textarea {
+      min-height: 100px;
+      width: 100%;
+      padding: 0.625rem;
+      resize: vertical;
+    }
+    
+    
+    
+    
+    
+    
+    .submit-input {
+      display: block;
+      width: 100%;
+      padding: 0rem;
+      margin: 0rem;
+      color: #363062;
+      background-color: #818FB4 ;
+      font-family: Montserrat, sans-serif;
+      color: #FFFBF5;
+      font-size:18px;
+      font-weight: bold;
+    }
+    

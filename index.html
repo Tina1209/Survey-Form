@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="index.css" />
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+         <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+  <h1  class="header" id="title">TinZa Survey Form</h1>
+  <p  class="description" id="description">Thank you for taking the time to help us improve our brand</p>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name
+      <input class="form-referrer" type="text" id="name"  placeholder="Enter your Name" required /> 
+      </div>
+      <div class="form-group">
+    </label>
+      <label id="email-label" for="email">Email
+      <input class="form-referrer" id="email" type="email" placeholder="Enter your Email" required>
+      </label>
+      </div>
+      <div class="form-group">
+      <label id="number-label" for="age">Age
+      <input class="form-referrer" id="number" name="age" type="number" max="120" min="14" placeholder="Age" >
+    </label>
+    </div>
+    <div class="form-group">
+      <label for="referrer">How did you hear about us?
+          <select  class="form-referrer" id="dropdown" name="role"  required>
+            <option disabled selected value> select an item</option>
+            <option value="1">Recommendation of friends</option>
+            <option value="2">Instagram page</option>
+            <option value="3">Advertising in social networks</option>
+            <option value="4">Through fashion magazines</option>
+            <option value="5">Other</option>
+          </select>
+        </label>
+    </div>
+    <div class="form-group">
+      <p class="title-dropdown"> Would you recommend TinZa to a friends?</p>
+      <label for="user-recommend"> <input id="user-recommend" type="radio" name="account-type" class="inline" value="definitely" checked /> Definitely</label>
+      <label for="user-recommend"><input id="user-recommend" type="radio" name="account-type" class="inline"  value="maybe"/> Maybe</label>
+      <label for="user-recommend"><input id="user-recommend" type="radio" name="account-type" class="inline"  value="not-sure"/> Not sure</label>
+    </div>
+    <p class="title-dropdown">What is your favorite department in TinZa?</p>
+    <label for="referrer">
+          <select class="form-referrer" id="dropdown" name="role"  required>
+            <option disabled selected value>select an item</option>
+            <option value="1">Women's clothes</option>
+            <option value="2">Men's clothes</option>
+            <option value="3">Children's clothing</option>
+            <option value="4">Accessories</option>
+            <option value="5">Hygiene products and cosmetics</option>
+          <option value="6">Home goods</option>
+          </select>
+        </label>
+    <div class="form-group">
+     <p class="title-dropdown">What did you like the most?</p>
+      <label for="input-checkbox">
+        <input class="inline" id="input-checkbox" type="checkbox" name="prefer"  value="quality of service" checked /> Quality of service</label>
+      <label for="input-checkbox"><input class="inline" id="input-checkbox" type="checkbox" name="prefer"   value="delivery speed"/> Delivery speed</label>
+      <label for="input-checkbox"><input class="inline" id="input-checkbox" type="checkbox" name="prefer"   value="website convenience"/> Website convenience</label>
+      <label for="input-checkbox"><input class="inline" id="input-checkbox" type="checkbox" name="prefer"   value="quality of goods"/> Quality of goods</label>
+      <label for="input-checkbox"><input class="inline" id="input-checkbox" type="checkbox" name="prefer"   value="store location"/> Store location</label>
+      <label for="input-checkbox"><input class="inline" id="input-checkbox" type="checkbox" name="prefer"   value="polite staff"/> Polite staff</label>
+      <label for="input-checkbox"><input class="inline" id="input-checkbox" type="checkbox" name="prefer"   value="type and quality of packaging"/> Type and quality of packaging</label>
+      <label for="input-checkbox"><input class="inline" id="input-checkbox" type="checkbox" name="prefer"   value="assortment of goods"/> Assortment of goods</label>
+      <label for="input-checkbox"><input class="inline" id="input-checkbox" type="checkbox" name="prefer"   value="dimensional grid of goods"/> Dimensional grid of goods</label>
+      <label for="input-checkbox"><input class="inline" id="input-checkbox" type="checkbox" name="prefer"   value="store design"/> Store design</label>
+    </div>
+    <p class="title-dropdown">Leave your feedback to improve our work.</p>
+    <label for="feedback">
+          <textarea id="feedback" name="feedback" rows="3" cols="60" placeholder="Enter your comment here..."></textarea>
+        </label>
+    <input id="submit" type="submit" value="Submit" class="submit-input" />
+  </form>
+</body>
+
+</html>
+
